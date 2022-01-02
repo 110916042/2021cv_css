@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+        div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+        }
+
+        div.gallery:hover {
+        border: 1px solid #777;
+        }
+
+        div.gallery img {
+        width: 100%;
+        height: auto;
+        }
+
+        div.desc {
+        padding: 15px;
+        text-align: center;
+        }
+        </style>
+    <title>Henry's Website</title>
+</head>
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+          <a href="#home" class="w3-bar-item w3-button"><b>Henry</b> Website</a>
+          <!-- Float links to the right. Hide them on small screens -->
+          <div class="w3-right w3-hide-small"> 
+            <a href="#about" class="w3-bar-item w3-button ">About Me</a>
+            <a href="#photo" class="w3-bar-item w3-button">Photos</a>
+            <a href="#performance" class="w3-bar-item w3-button">Performance</a>
+            <a href="#game" class="w3-bar-item w3-button">Game</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+          </div>
+        </div>
+      </div>
+    
+
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="image\04F3C319-78EA-4FD7-9960-71F1CE5F4881.jpg" alt="Changhua" width="1500px" height="10%">
+        <div class="w3-display-middle w3-margin-top w3-center">
+          <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Welcome to My Page</b></span> </h1>
+          <div class="centered">Photo by Henry</div>
+        </div>
+      </header>
+      
+    <!-- <div class="w3-row w3-half">
+        <div class="w3-container w3-black w3-padding-64 w3-center" style="width:750px; height: 700px;margin: ; padding: 0;">
+            <h1 style="text-align: center;">About Me</h1>
+            <p></p>
+        </div> 
+    </div> 
+    <div class="w3-row w3-half"> 
+        <div class="w3-container w3-gray" style="width: 750px; height: 700px;">
+            <p>123</p>
+        </div>
+    </div>-->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center" style="color : rgb(138, 138, 138)" id="about">ABOUT ME</h3>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+              <p><b><i class="fa fa-user w3-margin-right"></i>It's Me !</b></p><br>
+              <img src="image\myPhoto.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+            </div>
+            <div class="w3-col m6 w3-hide-small w3-padding-large" style="margin-top: 50px;">
+                <p> 我來自彰化，台中下面那個，不愛吃肉圓，但是會去逛彰化百貨。會一點音樂，以為這樣就交得到女朋友，不過重要的還是臉。</p>
+                <p>就讀<a href="https://www.ntue.edu.tw/">台北教育大學</a>資訊科學系，平常興趣是</p>
+                <ul>
+                    <li>攝影</li>
+                    <li>拉小提琴</li>
+                    <li>和周圍的人聊天</li>
+                </ul>
+                <br>
+                <p>社團參加了<a href="https://www.facebook.com/NTUSymphonyOrchestra/">台大交響樂團</a>，3/7晚上7點在國家音樂廳有公演，想來聽可以找我買票喔!</p>
+              </div>
+    </div>
+    <br  id="photo">
+    <!--照片-->
+    <hr style="border: 3px solid rgb(0, 0, 0);"/>
+    <h2 class="w3-center" style="color : rgb(138, 138, 138)">Some photos shoot by me</h2>
+
+    <div class="w3-center" style="margin-left: 100px ;">
+        <div class="gallery">
+            <img src="image\北美館.jpg" alt="北美館" width="600" height="400">
+          <div class="desc">台北市立美術館，那時自己一個人出門探索，無意間闖入的</div>
+        </div>
+        
+        <div class="gallery">
+  
+            <img src="image\日出.jpeg" alt="日出" width="600" height="400">
+          <div class="desc">早上5點在清水斷崖旁划獨木舟，滑完手差點脫臼</div>
+        </div>
+        
+        <div class="gallery">
+            <img src="image\象山.jpg" alt="象山" width="600" height="400">
+   
+          <div class="desc">年少輕狂，半夜12點去爬象山，冷的要命</div>
+        </div>
+        
+        <div class="gallery">
+            <img src="image\寶藏巖.jpg" alt="寶藏巖" width="600" height="400">
+  
+          <div class="desc">寶藏巖藝術村，也是適合一個或兩個人去看展覽的地方</div>
+        </div>
+    </div>
+    <br > 
+    <!--專案--> 
+    <div class="w3-row" >
+      <div class="w3-half w3-container" style="height : 500px ;margin-top:50px">
+        <h2 style="text-align :center ; color : rgb(138, 138, 138)" >Performances</h2>
+    
+        <table class="w3-center" style="width: 100% ; border:3px #cccccc solid;"cellpadding="10" border='1'>
+          <tbody>
+            <tr>  <td><a href="https://youtu.be/NGjIq2v5dDo" title="Cutie Flootie "target="_blank">Cutie Flootie</a></td> </tr>
+            <tr>  <td><a href="https://youtu.be/jOfjYT8lSQ8"target="_blank">Mendelssohn Violin Concerto in E minor, Op.64</a></td>   </tr>
+            <tr>  <td> <a href="https://www.youtube.com/watch?v=YuHG4x8vEAQ&ab_channel=HenryYang"target="_blank">Ponce - Estrellita</a></td></tr>
+            <tr> <td><br></td></tr>
+            <tr> <td><br></td></tr>
+          </tbody>
+        </table>
+        <br>
+        <div class="w3-row">
+          <div class="w3-half"> <img src="image\violin_1 (1).jpg" style="width:100%"> </div>
+          <div class="w3-half"> <img src="image\violin_1 (2).jpg" style="width:100%"> </div>
+        </div>
+      </div>
+
+      <!--工作經驗-->
+      <div class="w3-half w3-container" style="height : 500px ;margin-top:50px" >
+        <h2 style="text-align :center ; color : rgb(138, 138, 138)" >Work Experience</h2>
+
+        <div class="w3-container w3-responsive"> <br>
+          <br>
+          <table class="w3-table" > 
+            <tbody>
+              <tr style="">
+                <th>Year</th>
+                <th>Title</th>
+                <th>Where</th>
+              </tr>
+              <tr class="w3-white">
+                <td>2002</td>
+                <td>出生在這個世界</td>
+                <td>彰化</td>
+              </tr>
+              <tr class="w3-gray">
+                <td>2020 </td>
+                <td>在補習班當課輔老師</td>
+                <td>彰化</td>
+              </tr>  
+              <tr class="w3-white">
+                <td>2020</td>
+                <td>鋼琴家教</td>
+                <td>台北</td>
+              </tr>  
+              <tr class="w3-gray">
+                <td>2021</td>
+                <td>台北教育大學圖書館志工</td>
+                <td>NTUE</td>
+              </tr>  
+
+              <tr class="w3-white">
+                <td><br>
+                </td>
+                <td><br>
+                </td>
+                <td><br>
+                </td>
+              </tr>
+              <tr class="w3-gray">
+                <td><br>
+                </td>
+                <td><br>
+                </td>
+                <td><br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+      </div>
+    </div>
+    <br id="performance">
+    <br>
+
+    <div class="w3-row">
+      <div class="w3-half w3-container" style="height : 500px ;margin-top:50px;" >
+        <h1 style="color : rgb(138, 138, 138)">Music</h1>
+
+        <p style="color:#949A9E;">Wieniawski -- Scherzo Tarantelle Op. 16</p>
+        <audio controls="controls"> <source src="music\Wieniawski -- Scherzo Tarantelle Op. 16.mp3"type="audio/mpeg"> </audio>
+        <p style="color:#949A9E;">夜空中最亮的星 - 持修cover</p>
+        <audio controls="controls"> <source src="music\逃跑計劃 - 夜空中最亮的星 (Cover by 持修).mp3"type="audio/mpeg"> </audio>
+        <p style="color:#949A9E;">Imagine Dragons - Demons - 持修cover</p>
+        <audio controls="controls"> <source src="music\Imagine Dragons - Demons (cover by 持修 chihsiou).mp3"type="audio/mpeg"> </audio> 
+      </div>
+      
+      <br id="game">
+      <br>
+      <!--遊戲-->
+      <div class="w3-half w3-container w3-white w3-opacity w3-hover-opacity-off " >
+        <section>
+          <h1 class="game--title"   >Tic Tac Toe</h1>
+          <div class="game--container">
+              <div data-cell-index="0" class="cell"></div>
+              <div data-cell-index="1" class="cell"></div>
+              <div data-cell-index="2" class="cell"></div>
+              <div data-cell-index="3" class="cell"></div>
+              <div data-cell-index="4" class="cell"></div>
+              <div data-cell-index="5" class="cell"></div>
+              <div data-cell-index="6" class="cell"></div>
+              <div data-cell-index="7" class="cell"></div>
+              <div data-cell-index="8" class="cell"></div>
+          </div>
+          <h2 class="game--status"></h2>
+          <button class="game--restart">Restart Game</button>
+        </section>
+  
+        <script src="index.js"></script>
+        </div>
+    </div>
+
+    <div class=" w3-center w3-gray w3-padding-64 w3-opacity w3-hover-opacity-off" style=" width: 100%;" id="contact"> 
+      <h1>Contact Me</h1>
+      <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right w3-center"></i>To the top</a>
+      <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+          <a href="https://www.facebook.com/nry.he.33/"><img src="image\facenook-removebg-preview.png" style="width:50px" onclick="onClick(this)" class="w3-hover-opacity" alt="FB"></a>
+        </div>
+        <div class="w3-col m3">
+          <a href="https://www.instagram.com/yang_henry__/"><img src="image\ig-removebg-preview.png" style="width:50px" onclick="onClick(this)" class="w3-hover-opacity" alt="IG"></a>
+        </div>
+        <div class="w3-col m3">
+          <a href="https://www.youtube.com/channel/UCtIxlv8oAq6Gi7f8zBxLBEg"><img src="image\yt-removebg-preview.png" style="width:50px" onclick="onClick(this)" class="w3-hover-opacity" alt="YT"></a>
+        </div>
+        <div class="w3-col m3">
+          <a href="https://line.me/ti/p/DjYlwybqZT"><img src="image\line-removebg-preview.png" style="width:50px" onclick="onClick(this)" class="w3-hover-opacity" alt="Line"></a>
+        </div>
+
+      </div>
+      
+    </div>
+
+    
+
+
+</body>
+</html>
